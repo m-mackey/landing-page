@@ -1,0 +1,66 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header, footer {
+    width: 100%;
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+main {
+    flex-grow: 2;
+    display: flex; /*can maybe remove*/
+    flex-direction: column;
+    background-color: blue ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#intro {
+    background-color: blueviolet;
+}
+
+#img-section {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#img-section h2 {
+    flex-basis: 100%;
+}
+
+#img-section figure {
+    flex-basis: 50%;
+}
+
+#quote {
+    background-color: bisque;
+}
+
+#sign-up {
+    background-color: palegreen;
+}
+
