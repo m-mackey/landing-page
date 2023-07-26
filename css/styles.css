@@ -78,3 +78,8 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+header, footer, #intro {
+    background-color: #1F2937;
+    color: white;
+    }
