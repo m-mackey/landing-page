@@ -1,3 +1,6 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -6,7 +9,6 @@
 
 header, footer {
     width: 100%;
-    background-color: aqua;
 }
 
 header {
@@ -43,7 +45,6 @@ main {
 }
 
 #intro {
-    background-color: blueviolet;
     display: flex;
     width: 100%;
     align-items: center;
