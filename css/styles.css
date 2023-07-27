@@ -84,3 +84,15 @@ header, footer, #intro {
     background-color: #1F2937;
     color: white;
     }
+
+header a:link {
+    color: white;
+}
+
+header a:visited {
+    color: #D4AAD4;
+}
+
+header a:active {
+    color: #F89BA5;
+}
