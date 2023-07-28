@@ -105,6 +105,21 @@ header a:active {
 }
 
 button {
+    /* padding-left: 1em;
+    padding-right: 1em; */
+    padding: 0.25em 1em 0.25em 1em;
+}
+
+#intro button {
     background-color: #3882F6;
     color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+#sign-up button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
 }
