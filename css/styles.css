@@ -39,7 +39,6 @@ main {
     flex-grow: 2;
     display: flex; /*can maybe remove*/
     flex-direction: column;
-    background-color: blue ;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -75,11 +74,12 @@ main {
 }
 
 #quote {
-    background-color: bisque;
+    background-color: #E5E7EB;
 }
 
 #sign-up {
-    background-color: palegreen;
+    background-color: #3882F6;
+    color: white;
 }
 
 footer {
@@ -102,4 +102,9 @@ header a:visited {
 
 header a:active {
     color: #F89BA5;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
 }
