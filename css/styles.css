@@ -72,7 +72,19 @@ main {
 }
 
 #quote {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    padding: 1em 0 1em 0;
     background-color: #E5E7EB;
+}
+
+#quote figure {
+    max-width: 80%;
+}
+
+#quote figure figcaption{
+    text-align: end;
 }
 
 #sign-up {
